@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./out/",
+        "module": "CommonJS",
+        "target": "es6",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "allowJs": false,
+        "moduleResolution": "node",
+        "lib": [
+            "ES6"
+        ],
+        "baseUrl": "types",
+        "typeRoots": [
+            "../../types"
+        ]
+    }
+}

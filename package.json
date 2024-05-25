@@ -1,0 +1,14 @@
+{
+  "name": "pico-sdk-js-examples",
+  "version": "1.0.0",
+  "description": "Example scripts to run on your Pico device with the pico-sdk-js",
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "build": "find ./examples -maxdepth 2 ! -path \"*/node_modules/*\" -name \"package.json\" -execdir npm run build \\;",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "find ./examples -maxdepth 2 ! -path \"*/node_modules/*\" -name \"package.json\" -execdir npm install \\;"
+  },
+  "devDependencies": {
+  }
+}

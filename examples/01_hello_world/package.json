@@ -1,0 +1,25 @@
+{
+  "name": "@pico-sdk-js-examples/01_hello_world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack -c ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"author": {
+		"name": "jt000",
+		"url": "https://www.github.com/jt000"
+	},
+	"license": "GPL-3.0",
+  "dependencies": {
+    "@typescript/lib-dom": "file:../../types/pico-sdk-js"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

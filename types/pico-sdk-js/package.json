@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "name": "@types/pico-sdk-js",
+    "version": "1.0.1",
+    "nonNpm": true,
+    "nonNpmDescription": "pico-sdk-js - Another javascript runtime for the Raspberry Pi Pico",
+    "projects": [
+        "https://github.com/jt000/pico-sdk-js"
+    ],
+    "devDependencies": {
+        "@types/pico-sdk-js": "workspace:."
+    },
+    "owners": [
+        {
+            "name": "Jason Tremper",
+            "githubUsername": "jt000"
+        }
+    ]
+}
