@@ -11,9 +11,10 @@
 		"name": "jt000",
 		"url": "https://www.github.com/jt000"
 	},
-	"license": "GPL-3.0",
+  "license": "GPL-3.0",
   "dependencies": {
-    "@typescript/lib-dom": "file:../../types/pico-sdk-js"
+    "@typescript/lib-dom": "@types/pico-sdk-js",
+    "@types/pico-sdk-js": "^0.0.0"
   },
   "devDependencies": {
     "ts-loader": "^9.5.1",
